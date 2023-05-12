@@ -93,10 +93,6 @@ body {
   align-items: center;
 }
 
-.box:hover {
-  box-shadow: 0rem 0rem 1.5rem #888;
-}
-
 .box:not(:empty) {
   cursor: not-allowed;
 }
@@ -199,11 +195,4 @@ body {
   to {
     transform: scale(1);
   }
-}
-
-.des {
-  margin-top: 3rem;
-  font-size: 2rem;
-  color: #F2C14E;
-  opacity: .7;
 }
